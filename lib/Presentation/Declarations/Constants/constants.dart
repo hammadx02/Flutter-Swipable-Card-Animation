@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 Color primaryColor = const Color(0xff115e38);
 Color secondaryColor = const Color(0xff4dd07f);
@@ -19,5 +20,5 @@ getBtnStyle(context) => ElevatedButton.styleFrom(
     shape: RoundedRectangleBorder(borderRadius: kBorderRadius),
     backgroundColor: primaryColor,
     fixedSize: Size(MediaQuery.of(context).size.width, 47),
-    textStyle: const TextStyle(fontWeight: FontWeight.bold));
+    textStyle:  GoogleFonts.poppins(fontWeight: FontWeight.bold));
 var btnTextStyle = TextStyle(fontSize: kfontSize);

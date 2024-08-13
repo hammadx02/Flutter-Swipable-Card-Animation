@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:iconsax/iconsax.dart';
 import '../../../Components/primary_btn.dart';
 import '../../../Components/appbar.dart';
 import '../../../Components/spacer.dart';
@@ -72,22 +74,22 @@ class Settings extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Featured',
-              style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+           Text('Featured',
+              style: GoogleFonts.poppins(fontSize: 25, fontWeight: FontWeight.bold)),
           HeightSpacer(myHeight: kSpacing),
-          const ListTileBldr(
+           const ListTileBldr(
             title: 'View analytics',
-            icon: Icons.bar_chart_outlined,
+            icon: Iconsax.chart_1,
           ),
           HeightSpacer(myHeight: kSpacing / 2),
-          const ListTileBldr(
+           const ListTileBldr(
             title: 'Passbook',
-            icon: Icons.book_outlined,
+            icon: Iconsax.book,
           ),
           HeightSpacer(myHeight: kSpacing / 2),
-          const ListTileBldr(
+           const ListTileBldr(
             title: 'Add Money',
-            icon: Icons.monetization_on,
+            icon: Iconsax.money_3,
           ),
           HeightSpacer(myHeight: kSpacing * 2),
           Align(

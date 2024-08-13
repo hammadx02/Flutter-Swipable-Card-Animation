@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
 import '../../../Components/spacer.dart';
 import '../../../Declarations/Constants/constants.dart';
@@ -19,7 +20,9 @@ class HeaderWidgets extends StatelessWidget {
             child: Text(
               'Click to add more credit cards to wallet.',
               style: TextStyle(
-                  color: Colors.white.withOpacity(0.75), fontSize: 20, fontWeight: FontWeight.w600),
+                  color: Colors.white.withOpacity(0.75),
+                  fontSize: 20,
+                  fontWeight: FontWeight.w600),
             ),
           ),
           WidthSpacer(myWidth: kSpacing * 5),
@@ -29,9 +32,9 @@ class HeaderWidgets extends StatelessWidget {
             child: IconButton(
               onPressed: () {},
               icon: const Icon(
-                Icons.add_outlined,
+                Iconsax.add,
                 color: Colors.white,
-                size: 30,
+                size: 35,
               ),
             ),
           ),

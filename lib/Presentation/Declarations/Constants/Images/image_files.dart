@@ -5,4 +5,6 @@ List imagepath = [
   'assets/Images/card_4.png',
   'assets/Images/card_5.png',
   'assets/Images/card_6.png',
+  'assets/Images/card_7.png',
+  'assets/Images/card_8.png',
 ];

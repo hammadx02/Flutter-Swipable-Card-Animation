@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../Declarations/Constants/constants.dart';
 
@@ -10,7 +11,7 @@ AppBar buildAppBar({
     AppBar(
       title: Text(
         appBarTitle,
-        style: TextStyle(
+        style: GoogleFonts.poppins(
           color: Colors.white,
           fontWeight: FontWeight.bold,
         ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../../Declarations/Constants/constants.dart';
 
@@ -25,7 +26,7 @@ class ListTileBldr extends StatelessWidget {
           size: 35,
         ),
         title: Text(title,
-            style: const TextStyle(
+            style:  GoogleFonts.poppins(
               fontSize: 18,
             )),
         trailing: const Icon(

@@ -19,7 +19,7 @@ class HeaderWidgets extends StatelessWidget {
             child: Text(
               'Click to add more credit cards to wallet.',
               style: TextStyle(
-                  color: Colors.white.withOpacity(0.75), fontSize: 20),
+                  color: Colors.white.withOpacity(0.75), fontSize: 20, fontWeight: FontWeight.w600),
             ),
           ),
           WidthSpacer(myWidth: kSpacing * 5),

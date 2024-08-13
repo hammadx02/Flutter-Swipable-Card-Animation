@@ -8,7 +8,13 @@ AppBar buildAppBar({
   List<Widget>? actionWidgets,
 }) =>
     AppBar(
-      title: Text(appBarTitle),
+      title: Text(
+        appBarTitle,
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
       centerTitle: centerTitle ?? true,
       elevation: 0,
       backgroundColor: primaryColor,
